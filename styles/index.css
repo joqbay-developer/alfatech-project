@@ -70,7 +70,7 @@ header nav a:hover {
 }
 /* header styling */
 
-/* header styling */
+/* banner styling */
 section.banner {
     background-color: #2f86d6;
     color: #fff;
@@ -85,10 +85,10 @@ section.banner {
     align-items: center;
     justify-content: space-between;
     padding: 100px 0;
+    padding: 0 2%;
 }
 
 header.banner__container__text {
-    padding: 3% 2%;
     flex: 1;
 }
 
@@ -96,15 +96,56 @@ header.banner__container__text h2 {
     padding: 5% 0;
     font-size: 30px;
     letter-spacing: 1px;
+    font-style: italic;
 }
 
 header.banner__container__text p {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 35px;
+
 }
 
 div.banner__container__image {
     flex: 1;
 }
-/* header styling */
+/* banner styling */
+
+/* ads styling */
+section.ads {
+    background-color: #233032;
+    min-height: 15vh;
+    color: #fff;
+}
+
+.ads__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 143px;
+
+}
+
+
+.ads__container__text h3 {
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.ads__container__text p {
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+
+
+.ads__container__link a {
+    color: #fff;
+    background-color: #2f86d6;
+    padding: 15px;
+    border-radius: 5px;
+}
+/* ads styling */
