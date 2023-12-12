@@ -63,10 +63,12 @@ header nav a {
     font-weight: 700;
     font-size: 14px;
     transition: .4s ease-in-out;
+    padding: 8px 12px;
+    border-radius: 5px;
 }
 
 header nav a:hover {
-    border-bottom: 1px #2f86d6 solid;
+    box-shadow: 0 0 8px 8px rgba(47, 134, 214, 0.5);
 }
 /* header styling */
 
