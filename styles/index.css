@@ -69,3 +69,42 @@ header nav a:hover {
     border-bottom: 1px #2f86d6 solid;
 }
 /* header styling */
+
+/* header styling */
+section.banner {
+    background-color: #2f86d6;
+    color: #fff;
+    min-height: calc(85vh - 100px);
+    display: flex;
+}
+
+.banner__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+header.banner__container__text {
+    padding: 3% 2%;
+    flex: 1;
+}
+
+header.banner__container__text h2 {
+    padding: 5% 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+header.banner__container__text p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+div.banner__container__image {
+    flex: 1;
+}
+/* header styling */
