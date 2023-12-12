@@ -137,6 +137,7 @@ section.ads {
 .ads__container__text h3 {
     letter-spacing: 1px;
     font-style: italic;
+    font-size: 25px;
 }
 
 .ads__container__text p {
@@ -159,3 +160,77 @@ section.ads {
     box-shadow: 0 0 8px 8px rgba(47, 134, 214, 0.5);
 }
 /* ads styling */
+
+/* informations styling */
+section.informations {
+    min-height: 100vh;
+}
+
+.informations__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+
+.informations__container__header h3 {
+    font-size: 30px;
+    width: 900px;
+    text-align: center;
+    padding: 5%;
+}
+.informations__container__header strong.informations {
+    color: #2f86d6;
+}
+
+.informations__container__boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informations__container__boxes__content {
+    text-align: center;
+    border: 1px solid #2f86d6;
+    border-radius: 5px;
+    padding: 2%;
+    box-shadow: 0 0 8px 8px rgba(35, 48, 50, 0.5) inset;
+}
+
+
+
+.informations__container__boxes__content:nth-child(1) {
+    margin-right: 10px;
+}
+
+
+.informations__container__boxes__content:nth-child(3) {
+    margin-left: 10px;
+}
+
+
+
+.informations__container__boxes__content h4 {
+    padding: 5% 0;
+}
+
+
+.informations__container__boxes__content img {
+    width: 100px;
+}
+
+.informations__container__boxes__content h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.informations__container__boxes__content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+/* informations styling */
