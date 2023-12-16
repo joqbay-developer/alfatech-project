@@ -148,9 +148,10 @@ section.ads {
 
 
 .ads__container__link a {
+    font-size: 18px;
     color: #fff;
     background-color: #2f86d6;
-    padding: 15px;
+    padding: 22px 28px;
     border-radius: 5px;
     transition: .4s ease-in-out;
     border: none;
@@ -162,11 +163,11 @@ section.ads {
 /* ads styling */
 
 /* informations styling */
-section.informations {
+/* section.informations {
     min-height: 100vh;
-}
+} */
 
-.informations__container {
+.informations__container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,7 +184,7 @@ section.informations {
     text-align: center;
     padding: 5%;
 }
-.informations__container__header strong.informations {
+ strong.strong {
     color: #2f86d6;
 }
 
@@ -234,3 +235,29 @@ section.informations {
     line-height: 35px;
 }
 /* informations styling */
+
+/* plans styling */
+.plans {
+    min-height: 100vh;
+    background-color: #f1f3f7;
+}
+
+.plans__container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.plans__container__header h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 5%;
+}
+
+.plans__container__container__table {
+    width: 100%;
+}
+
+.plans__container__table__image img {
+    width: 100px;
+}
+/* plans styling */
