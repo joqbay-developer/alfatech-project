@@ -163,10 +163,12 @@ section.ads {
 }
 /* ads styling */
 
+
+
 /* informations styling */
-/* section.informations {
-    min-height: 100vh;
-} */
+section.informations {
+    padding-bottom: 5%;
+}
 
 .informations__container{
     display: flex;
@@ -252,7 +254,8 @@ section.ads {
 .plans__container__header h3 {
     font-size: 30px;
     text-align: center;
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .plans__container__container__table {
@@ -263,6 +266,7 @@ section.ads {
     background-color: #fff;
     border-radius: 1%;
 }
+
 
 table, th, td {
     border: 1px solid;
@@ -317,5 +321,59 @@ thead h4 {
 
 .ads__after__plans__container__link a:hover {
     box-shadow: 0 0 8px 8px rgba(23, 30, 32, 0.5);
+}
+
+.plans__container__container__table tbody tr td {
+    text-align: center;
+}
+/* ads after plans */
+
+
+/* ads after plans */
+.footer__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+.footer__container__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0 2% 0;
+}
+
+.footer__container__logo img {
+    width: 60px;
+}
+
+.footer__container__header {
+    padding-left: 20px;
+}
+
+.footer__container__header h1 {
+    font-size: 24px;
+}
+
+.footer__container__text {
+    text-align: center;
+    padding: 2% 0 5% 0;
+}
+
+
+.footer__container__text p {
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.footer__container__author {
+    text-align: center;
+    background-color: #f1f3f7;
+    padding: 2%;
+}
+
+.footer__container__author strong {
+    font-style: italic;
 }
 /* ads after plans */
