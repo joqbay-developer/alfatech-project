@@ -119,13 +119,13 @@ div.banner__container__image {
 /* banner styling */
 
 /* ads styling */
-.ads {
+.ads__after__banner {
     background-color: #233032;
     height: 15vh;
     color: #fff;
 }
 
-.ads__container {
+.ads__after__banner__container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2%;
@@ -137,20 +137,20 @@ div.banner__container__image {
 }
 
 
-.ads__container__text h3 {
+.ads__after__banner__container__text h3 {
     letter-spacing: 1px;
     font-style: italic;
     font-size: 25px;
 }
 
-.ads__container__text p {
+.ads__after__banner__container__text p {
     letter-spacing: 1px;
     line-height: 35px;
 }
 
 
 
-.ads__container__link a {
+.ads__after__banner__container__link a {
     font-size: 18px;
     color: #fff;
     background-color: #2f86d6;
@@ -161,7 +161,7 @@ div.banner__container__image {
     text-transform: uppercase;
 }
 
-.ads__container__link a:hover {
+.ads__after__banner__container__link a:hover {
     box-shadow: 0 0 8px 8px rgba(47, 134, 214, 0.5);
 }
 /* ads styling */
