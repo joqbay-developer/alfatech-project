@@ -121,7 +121,7 @@ div.banner__container__image {
 /* ads styling */
 section.ads {
     background-color: #233032;
-    min-height: 15vh;
+    height: 15vh;
     color: #fff;
 }
 
