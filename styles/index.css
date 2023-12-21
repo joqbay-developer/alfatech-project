@@ -119,7 +119,7 @@ div.banner__container__image {
 /* banner styling */
 
 /* ads styling */
-section.ads {
+.ads {
     background-color: #233032;
     height: 15vh;
     color: #fff;
